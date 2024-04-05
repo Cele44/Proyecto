@@ -47,8 +47,8 @@
             label7 = new Label();
             textBox5 = new TextBox();
             panel1 = new Panel();
-            label11 = new Label();
             panel2 = new Panel();
+            label11 = new Label();
             panel7 = new Panel();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
@@ -59,7 +59,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(222, 335);
+            label2.Location = new Point(267, 239);
             label2.Name = "label2";
             label2.Size = new Size(86, 18);
             label2.TabIndex = 211;
@@ -68,7 +68,7 @@
             // textBox3
             // 
             textBox3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(222, 357);
+            textBox3.Location = new Point(267, 261);
             textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(172, 26);
@@ -79,7 +79,7 @@
             button6.BackgroundImage = (Image)resources.GetObject("button6.BackgroundImage");
             button6.BackgroundImageLayout = ImageLayout.Stretch;
             button6.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(212, 266);
+            button6.Location = new Point(456, 191);
             button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
             button6.Size = new Size(43, 31);
@@ -114,7 +114,7 @@
             // textBox2
             // 
             textBox2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(33, 269);
+            textBox2.Location = new Point(277, 194);
             textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(162, 26);
@@ -125,7 +125,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = Color.White;
-            label8.Location = new Point(33, 246);
+            label8.Location = new Point(277, 171);
             label8.Name = "label8";
             label8.Size = new Size(114, 18);
             label8.TabIndex = 205;
@@ -145,7 +145,7 @@
             button3.BackColor = Color.SandyBrown;
             button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(80, 501);
+            button3.Location = new Point(675, 369);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(160, 31);
@@ -161,7 +161,7 @@
             button4.DialogResult = DialogResult.OK;
             button4.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(80, 588);
+            button4.Location = new Point(675, 455);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(160, 31);
@@ -175,7 +175,7 @@
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.DialogResult = DialogResult.OK;
             button2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(222, 648);
+            button2.Location = new Point(675, 648);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(160, 31);
@@ -190,7 +190,7 @@
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.DialogResult = DialogResult.OK;
             button1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(80, 540);
+            button1.Location = new Point(675, 412);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(160, 31);
@@ -205,14 +205,14 @@
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(411, 141);
+            dataGridView1.Location = new Point(33, 338);
             dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(442, 535);
+            dataGridView1.Size = new Size(586, 287);
             dataGridView1.TabIndex = 195;
             dataGridView1.Click += dataGridView1_Click;
             // 
@@ -221,7 +221,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(28, 335);
+            label1.Location = new Point(528, 174);
             label1.Name = "label1";
             label1.Size = new Size(117, 18);
             label1.TabIndex = 214;
@@ -230,7 +230,7 @@
             // textBox4
             // 
             textBox4.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.Location = new Point(28, 357);
+            textBox4.Location = new Point(528, 196);
             textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(167, 26);
@@ -241,7 +241,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(28, 409);
+            label7.Location = new Point(33, 243);
             label7.Name = "label7";
             label7.Size = new Size(86, 18);
             label7.TabIndex = 216;
@@ -250,7 +250,7 @@
             // textBox5
             // 
             textBox5.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox5.Location = new Point(28, 427);
+            textBox5.Location = new Point(33, 261);
             textBox5.Margin = new Padding(3, 4, 3, 4);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(167, 26);
@@ -268,6 +268,14 @@
             panel1.Size = new Size(866, 133);
             panel1.TabIndex = 217;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.DarkCyan;
+            panel2.Location = new Point(1, 107);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(868, 32);
+            panel2.TabIndex = 219;
+            // 
             // label11
             // 
             label11.AutoSize = true;
@@ -278,14 +286,6 @@
             label11.Size = new Size(379, 48);
             label11.TabIndex = 0;
             label11.Text = "DETALLE VENTA";
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.DarkCyan;
-            panel2.Location = new Point(1, 107);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(868, 32);
-            panel2.TabIndex = 219;
             // 
             // panel7
             // 

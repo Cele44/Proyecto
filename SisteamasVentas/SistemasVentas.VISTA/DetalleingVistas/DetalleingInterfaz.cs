@@ -130,5 +130,10 @@ namespace SistemasVentas.VISTA.DetalleingVistas
                 textBox2.Text = p.Descripcion;
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

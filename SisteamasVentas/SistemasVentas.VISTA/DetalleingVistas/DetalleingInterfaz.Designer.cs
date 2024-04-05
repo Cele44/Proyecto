@@ -51,8 +51,8 @@
             label11 = new Label();
             dateTimePicker1 = new DateTimePicker();
             panel1 = new Panel();
-            label12 = new Label();
             panel2 = new Panel();
+            label12 = new Label();
             panel7 = new Panel();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
@@ -63,7 +63,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(37, 325);
+            label7.Location = new Point(37, 240);
             label7.Name = "label7";
             label7.Size = new Size(117, 18);
             label7.TabIndex = 237;
@@ -72,7 +72,7 @@
             // textBox5
             // 
             textBox5.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox5.Location = new Point(37, 347);
+            textBox5.Location = new Point(37, 262);
             textBox5.Margin = new Padding(3, 4, 3, 4);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(141, 26);
@@ -83,7 +83,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(228, 325);
+            label1.Location = new Point(228, 240);
             label1.Name = "label1";
             label1.Size = new Size(123, 18);
             label1.TabIndex = 235;
@@ -92,7 +92,7 @@
             // textBox4
             // 
             textBox4.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.Location = new Point(228, 347);
+            textBox4.Location = new Point(228, 262);
             textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(142, 26);
@@ -103,7 +103,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(37, 249);
+            label2.Location = new Point(414, 158);
             label2.Name = "label2";
             label2.Size = new Size(86, 18);
             label2.TabIndex = 233;
@@ -112,10 +112,10 @@
             // textBox3
             // 
             textBox3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(37, 282);
+            textBox3.Location = new Point(414, 191);
             textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(168, 26);
+            textBox3.Size = new Size(104, 26);
             textBox3.TabIndex = 232;
             // 
             // button6
@@ -189,7 +189,7 @@
             button3.BackColor = Color.SandyBrown;
             button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(80, 524);
+            button3.Location = new Point(695, 375);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(160, 31);
@@ -205,7 +205,7 @@
             button4.DialogResult = DialogResult.OK;
             button4.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(80, 602);
+            button4.Location = new Point(695, 453);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(160, 31);
@@ -219,7 +219,7 @@
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.DialogResult = DialogResult.OK;
             button2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(228, 648);
+            button2.Location = new Point(695, 648);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(160, 31);
@@ -234,7 +234,7 @@
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.DialogResult = DialogResult.OK;
             button1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(80, 563);
+            button1.Location = new Point(695, 414);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(160, 31);
@@ -249,15 +249,16 @@
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(411, 141);
+            dataGridView1.Location = new Point(25, 322);
             dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(442, 535);
+            dataGridView1.Size = new Size(649, 321);
             dataGridView1.TabIndex = 217;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.Click += dataGridView1_Click;
             // 
             // label10
@@ -265,7 +266,7 @@
             label10.AutoSize = true;
             label10.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.White;
-            label10.Location = new Point(37, 387);
+            label10.Location = new Point(414, 236);
             label10.Name = "label10";
             label10.Size = new Size(86, 18);
             label10.TabIndex = 239;
@@ -274,10 +275,10 @@
             // textBox6
             // 
             textBox6.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox6.Location = new Point(37, 419);
+            textBox6.Location = new Point(414, 258);
             textBox6.Margin = new Padding(3, 4, 3, 4);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(236, 26);
+            textBox6.Size = new Size(164, 26);
             textBox6.TabIndex = 238;
             // 
             // label11
@@ -285,7 +286,7 @@
             label11.AutoSize = true;
             label11.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label11.ForeColor = Color.White;
-            label11.Location = new Point(37, 449);
+            label11.Location = new Point(622, 233);
             label11.Name = "label11";
             label11.Size = new Size(168, 18);
             label11.TabIndex = 240;
@@ -294,10 +295,10 @@
             // dateTimePicker1
             // 
             dateTimePicker1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dateTimePicker1.Location = new Point(37, 471);
+            dateTimePicker1.Location = new Point(622, 255);
             dateTimePicker1.Margin = new Padding(3, 4, 3, 4);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(351, 26);
+            dateTimePicker1.Size = new Size(201, 26);
             dateTimePicker1.TabIndex = 241;
             // 
             // panel1
@@ -312,6 +313,14 @@
             panel1.Size = new Size(866, 137);
             panel1.TabIndex = 242;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.DarkCyan;
+            panel2.Location = new Point(0, 106);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(866, 32);
+            panel2.TabIndex = 244;
+            // 
             // label12
             // 
             label12.AutoSize = true;
@@ -322,14 +331,6 @@
             label12.Size = new Size(303, 48);
             label12.TabIndex = 0;
             label12.Text = "DETALLEING";
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.DarkCyan;
-            panel2.Location = new Point(0, 106);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(866, 32);
-            panel2.TabIndex = 244;
             // 
             // panel7
             // 

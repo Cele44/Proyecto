@@ -113,7 +113,7 @@
             button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button3.ForeColor = SystemColors.ControlText;
-            button3.Location = new Point(105, 407);
+            button3.Location = new Point(510, 213);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(160, 31);
@@ -129,7 +129,7 @@
             button4.DialogResult = DialogResult.OK;
             button4.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(105, 485);
+            button4.Location = new Point(510, 291);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(160, 31);
@@ -144,7 +144,7 @@
             button2.DialogResult = DialogResult.OK;
             button2.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = SystemColors.ControlText;
-            button2.Location = new Point(210, 648);
+            button2.Location = new Point(657, 648);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(160, 31);
@@ -160,7 +160,7 @@
             button1.DialogResult = DialogResult.OK;
             button1.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ControlText;
-            button1.Location = new Point(105, 446);
+            button1.Location = new Point(510, 252);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(160, 31);
@@ -175,14 +175,14 @@
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(394, 176);
+            dataGridView1.Location = new Point(30, 397);
             dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 25;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(459, 500);
+            dataGridView1.Size = new Size(603, 256);
             dataGridView1.TabIndex = 98;
             dataGridView1.Click += dataGridView1_Click;
             // 
@@ -255,7 +255,7 @@
             button6.DialogResult = DialogResult.OK;
             button6.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button6.ForeColor = SystemColors.ControlText;
-            button6.Location = new Point(12, 572);
+            button6.Location = new Point(657, 567);
             button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
             button6.Size = new Size(160, 31);
